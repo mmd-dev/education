@@ -6,14 +6,14 @@
 - 1.2. Scope of This Book
 - 1.3. History of UNIX Shells
   - 1.3.1. The Bourne Again Shell
-  - 1.3.2. Features of bash**
+  - 1.3.2. Features of bash
 - 1.4. Getting bash
 - 1.5. Interactive Shell Use
-  - 1.5.1. Commands, Arguments, and Options**
+  - 1.5.1. Commands, Arguments, and Options
 - 1.6. Files
   - 1.6.1. Directories
   - 1.6.2. Filenames, Wildcards, and Pathname Expansion
-  - 1.6.3. Brace Expansion**
+  - 1.6.3. Brace Expansion
 - 1.7. Input and Output
   - 1.7.1. Standard I/O
   - 1.7.2. I/O Redirection
@@ -32,14 +32,14 @@
 ## 2. Command-Line Editing
 
 - 2.1. Enabling Command-Line Editing
-- 2.2. The History List**
-- 2.3. emacs Editing Mode**
-  - 2.3.1. Basic Commands**
-  - 2.3.2. Word Commands**
-  - 2.3.3. Line Commands**
-  - 2.3.4. Moving Around in the History List**
-  - 2.3.5. Textual Completion**
-  - 2.3.6. Miscellaneous Commands**
+- 2.2. The History List
+- 2.3. emacs Editing Mode
+  - 2.3.1. Basic Commands
+  - 2.3.2. Word Commands
+  - 2.3.3. Line Commands
+  - 2.3.4. Moving Around in the History List
+  - 2.3.5. Textual Completion
+  - 2.3.6. Miscellaneous Commands
 - 2.4. vi Editing Mode
   - 2.4.1. Simple Control Mode Commands
   - 2.4.2. Entering and Changing Text
@@ -68,7 +68,7 @@
   - 3.5.2. The Environment File
 - 3.6. Customization Hints
 
-## 4. Basic Shell Programming**
+## 4. Basic Shell Programming
 - 4.1. Shell Scripts and Functions
   - 4.1.1. Functions
 - 4.2. Shell Variables
@@ -84,19 +84,19 @@
 - 4.4. Command Substitution
 - 4.5. Advanced Examples: pushd and popd
 
-## 5. Flow Control** 
-- 5.1. if/else**
-  - 5.1.1. Exit Status**
-  - 5.1.2. Return**
-  - 5.1.3. Combinations of Exit Statuses**
-  - 5.1.4. Condition Tests**
-  - 5.1.5. Integer Conditionals**
+## 5. Flow Control
+- 5.1. if/else
+  - 5.1.1. Exit Status
+  - 5.1.2. Return
+  - 5.1.3. Combinations of Exit Statuses
+  - 5.1.4. Condition Tests
+  - 5.1.5. Integer Conditionals
 - 5.2. for
 - 5.3. case
 - 5.4. select
 - 5.5. while and until
   
-# 6. Command-Line Options and Typed Variables**
+# 6. Command-Line Options and Typed Variables
 - 6.1. Command-Line Options
   - 6.1.1. shift
   - 6.1.2. Options with Arguments
@@ -108,10 +108,10 @@
   - 6.3.3. Arithmetic for Loops
 - 6.4. Arrays
 
-# 7. Input/Output and Command-Line Processing**
-- 7.1. I/O Redirectors**
-  - 7.1.1. Here-documents**
-  - 7.1.2. File Descriptors**
+# 7. Input/Output and Command-Line Processing
+- 7.1. I/O Redirectors
+  - 7.1.1. Here-documents
+  - 7.1.2. File Descriptors
 - 7.2. String I/O
   - 7.2.1. echo
   - 7.2.2. printf
@@ -121,7 +121,7 @@
   - 7.3.2. command, builtin, and enable
   - 7.3.3. eval
 
-# 8. Process Handling**
+# 8. Process Handling
 - 8.1. Process IDs and Job Numbers
 - 8.2. Job Control
   - 8.2.1. Foreground and Background
@@ -145,7 +145,7 @@
   - 8.6.2. Nested Subshells
 - 8.7. Process Substitution
 
-## 9. Debugging Shell Programs**
+## 9. Debugging Shell Programs
 - 9.1. Basic Debugging Aids
   - 9.1.1. Set Options
   - 9.1.2. Fake Signals
@@ -158,10 +158,10 @@
   - 9.2.5. Exercises
   
 
-## 10. bash Administration**
-- 10.1. Installing bash as the Standard Shell**
-  - 10.1.1. POSIX Mode**
-  - 10.1.2. Command-Line Options**
+## 10. bash Administration
+- 10.1. Installing bash as the Standard Shell
+  - 10.1.1. POSIX Mode
+  - 10.1.2. Command-Line Options
 - 10.2. Environment Customization
   - 10.2.1. umask
   - 10.2.2. ulimit
@@ -171,56 +171,54 @@
   - 10.3.2. A System Break-In Scenario
   - 10.3.3. Privileged Mode
 
-## 11. Shell Scripting**
+## 11. Shell Scripting
 - 11.1. What's That Do?
   - 11.1.1. Comments
   - 11.1.2. Variables and Constants
-11.2. Starting Up
-11.3. Potential Problems
-11.4. Don't Use bash
-```
-**12. bash for Your System**
-    **12.1. Obtaining bash**
-    **12.2. Unpacking the Archive**
-    **12.3. What's in the Archive**
-       **12.3.1. Documentation**
-       **12.3.2. Configuring and Building bash**
-       **12.3.3. Testing bash**
-       **12.3.4. Potential Problems**
-       **12.3.5. Installing bash as a Login Shell**
-       **12.3.6. Examples**
+- 11.2. Starting Up
+- 11.3. Potential Problems
+- 11.4. Don't Use bash
 
-```
-12.4. Who Do I Turn to?
-12.4.1. Asking Questions
-12.4.2. Reporting Bugs
-```
-**A. Related Shells**
+## 12. bash for Your System
+- 12.1. Obtaining bash
+- 12.2. Unpacking the Archive
+- 12.3. What's in the Archive
+  - 12.3.1. Documentation
+  - 12.3.2. Configuring and Building bash
+  - 12.3.3. Testing bash
+  - 12.3.4. Potential Problems
+  - 12.3.5. Installing bash as a Login Shell
+  - 12.3.6. Examples
+- 12.4. Who Do I Turn to?
+  - 12.4.1. Asking Questions
+  - 12.4.2. Reporting Bugs
 
 
-```
-A.1. The Bourne Shell
-A.2. The IEEE 1003.2 POSIX Shell Standard
-A.3. The Korn Shell
-A.4. pdksh
-A.5. zsh
-A.6. Shell Clones and Unix-like Platforms
-A.6.1. Cygwin
-A.6.2. DJGPP
-A.6.3. MKS Toolkit
-A.6.4. AT&T UWIN
-```
-**B. Reference Lists
-B.1. Invocation
-B.2. Prompt String Customizations
-B.3. Built-In Commands and Reserved Words
-B.4. Built-In Shell Variables
-B.5. Test Operators
-B.6. set Options
-B.7. shopt Options
-B.8. I/O Redirection
-B.9. emacs Mode Commands
-B.10. vi Control Mode Commands**
+---
 
-**C. Loadable Built-Ins
-D. Programmable Completion**
+## A. Related Shells
+- A.1. The Bourne Shell
+- A.2. The IEEE 1003.2 POSIX Shell Standard
+- A.3. The Korn Shell
+- A.4. pdksh
+- A.5. zsh
+- A.6. Shell Clones and Unix-like Platforms
+  - A.6.1. Cygwin
+  - A.6.2. DJGPP
+  - A.6.3. MKS Toolkit
+  - A.6.4. AT&T UWIN
+
+## B. Reference Lists
+- B.1. Invocation
+- B.2. Prompt String Customizations
+- B.3. Built-In Commands and Reserved Words
+- B.4. Built-In Shell Variables
+- B.5. Test Operators
+- B.6. set Options
+- B.7. shopt Options
+- B.8. I/O Redirection
+- B.9. emacs Mode Commands
+- B.10. vi Control Mode Commands
+
+## C. Loadable Built-Ins
+## D. Programmable Completion
