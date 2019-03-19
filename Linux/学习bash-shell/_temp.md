@@ -1,7 +1,5 @@
 
-# Chapter 12. bash for
-
-# Your System
+# Chapter 12. bash for Your System
 
 The first 10 chapters of this book looked at nearly all
 aspects of _bash_ , from navigating the filesystem and
