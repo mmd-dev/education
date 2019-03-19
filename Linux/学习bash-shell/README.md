@@ -6,7 +6,7 @@
 - 1.2. [Scope of This Book](01-02.md)
 - 1.3. [History of UNIX Shells](01-03.md)
   - 1.3.1. [The Bourne Again Shell](01-03.md#the-bourne-again-shell)
-  - 1.3.2. Features of bash
+  - 1.3.2. [Features of bash](01-03.md#features-of-bash)
 - 1.4. Getting bash
 - 1.5. Interactive Shell Use
   - 1.5.1. Commands, Arguments, and Options
