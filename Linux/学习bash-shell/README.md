@@ -3,7 +3,7 @@
 ## 1. bash Basics
 
 - 1.1. [What Is a Shell?](01-01.md)
-- 1.2. Scope of This Book
+- 1.2. [Scope of This Book](01-02.md)
 - 1.3. History of UNIX Shells
   - 1.3.1. The Bourne Again Shell
   - 1.3.2. Features of bash
